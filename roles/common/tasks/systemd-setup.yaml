@@ -7,4 +7,4 @@
     ansible.builtin.systemd:
       daemon-reload: yes
       state: restarted
-      name: {{component}}
+      name: "{{component}}"
