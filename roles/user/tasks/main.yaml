@@ -22,5 +22,3 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: systemd-setup
-  tags:
-    - systemd
